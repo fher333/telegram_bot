@@ -650,7 +650,7 @@ if (banedPos != -1) {
                 botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
                 botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
             }else {
-                var photo = 'chttps://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica15a.jpg?v=1588561419151';
+                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica15a.jpg?v=1588561419151';
                 rooms[roomSelected].used=true; 
                 rooms[roomSelected].user=chatId;  
                 rooms[roomSelected].girl=girls[g].ID; 
