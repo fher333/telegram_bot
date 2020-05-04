@@ -462,7 +462,7 @@ botPrincipal.on('message', function(msg){
     banedPos=userBaned.findIndex(usuario =>{
         return usuario.id==chatId;
     });
-    
+    //console.log(users);
 if (banedPos != -1) {
     console.log('usuario baneado')
     botPrincipal.sendMessage(chatId, "Hola, " + userBaned[banedPos].name + " estas en la lista de Baneados, debes esperar 8 dias para poder ingresar de nuevo");
@@ -709,6 +709,7 @@ if (banedPos != -1) {
         //     });
             
     }
+  console.log(users);
 }
 
      
