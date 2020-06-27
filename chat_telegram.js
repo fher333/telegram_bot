@@ -1,16 +1,43 @@
 var TelegramBot = require('node-telegram-bot-api'); //se invoca la libreria de none-telegram-bot-api
 
+/*
+Monitor 717550092  iphone fher 3166323179
+martin garcia       790663322
+mauricio combustion 1145750748
+jessica tobar       1250187130
+maryury venezolana  1204215559
+luisa fernanda diaz 1115398938
+nayibe daza         1135835787
+huawei fher         933443152
+victoria mmira      1115689097
+huwei p9 ingstudio  1042597637
+*/
 
-var monitor = {name:"monitor", code: 16, ID: 717550092, city: "cali", age: 19, category: "cita", numberPhone: 321457889,  chatOnline: false};
+var monitor = {name:"monitor", code: 0, ID: 717550092, city: "cali", age: 19, category: "cita", numberPhone: 321457889,  chatOnline: false};
 var girl11 = {name:"Jeka", code: 11, ID: 1250187130, city: "cali", age: 28, category: "amistad", numberPhone: 3212215487,  chatOnline: false};
-var girl12 = {name:"maryu", code: 12, ID: 1204215559, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};
-var girl13 = {name:"luisa", code: 13, ID: 1115398938, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};
-var girl14 = {name:"nayi", code: 14, ID: 1135835787, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};
+//var girl12 = {name:"maryu", code: 12, ID: 1204215559, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};
+//girl 12 numero ingstudio
+var girl12 = {name:"maryu", code: 12, ID: 1042597637, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};
+//var girl13 = {name:"luisa", code: 13, ID: 1115398938, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};
+// girl 13 numero de  fher
+var girl13 = {name:"luisa", code: 13, ID: 717550092, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};
+//var girl14 = {name:"nayi", code: 14, ID: 1135835787, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};
+//girl 14 numero de vicky
+var girl14 = {name:"nayi", code: 14, ID: 1115689097, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};
+// girl 15 huawei y9
 var girl15 = {name:"La Gata", code: 15, ID: 933443152, city: "cali", age: 18, category: "cita", numberPhone: 3202235689,  chatOnline: false};
+//1239779819 daniela
+var chatMonitor = {name:"Monitor Kintti", token: '1293249756:AAGqocPSvjdPfcNZ3RZDY48Hj1jaKBsVS74', used: true, userOk: false, girlOK: false, link: "t.me/monitor_kintti_bot"}; //monitor
+var kintti = {name:"Kintti", token: '1167735604:AAGc6sKPNUVQyBl3-3STWqeHvpcQcVQoDac', used: true, userOk: false, girlOK: false, link: "t.me/kintti_bot"}; //monitor
 
-var chatMonitor = {name:"Chat Room 2", token: '1274008775:AAFeXXPT9b2tK_V77dElNmZ0ErG74oK9aaw', used: true, userOk: false, girlOK: false, link: "t.me/user_bog_bot"}; //monitor
-
-
+//547539239 antonio
+//1101516190 johnn edwar
+//969529351 mauro
+//1150742077 sandra niño
+//921828190 alejandro
+//var room1 = {name:"Chat Room 1 prueba", token: '1119763048:AAF7lGV8AN2lcRLQMGBjHRjThNeOGcTCAyM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/chatfherbot"};
+// este es el verdadero 
+// room desde celular fher 3166323179
 var room1 = {name:"Chat Room 1", token: '1214211400:AAEpxCew-CPwZotWVIrtOAVgGK731UNhUlA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_1_bot"};
 var room2 = {name:"Chat Room 2", token: '838906383:AAGAyVvkVQL1bKkw4DZ9K5KQ08HY_pkILvM',  used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_2_bot"};
 var room3 = {name:"Chat Room 3", token: '1223414025:AAGxl_XNZOA0IVl4ZEkWvCpoIL-A2e9MwzM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/romm_3_bot"};
@@ -18,35 +45,89 @@ var room4 = {name:"Chat Room 4", token: '1234970132:AAGRdMLWE9R7_9Ovjwi0ZfcKTnTU
 var room5 = {name:"Chat Room 5", token: '1198020310:AAF_YUAQTIBCGHcK8MPUAA_FupGUim-EpKc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_5_bot"};
 var room6 = {name:"Chat Room 6", token: '1170692133:AAGUVL7iyrcG6Xo4SnWfAEJslS_cF_InWI4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_6_bot"};
 var room7 = {name:"Chat Room 7", token: '1182303392:AAEaegNRGhPYetdS47HKX4u8SRIrq15a1sY', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_7_bot"};
-var room8 = {name:"Chat Room 8", token: '1266204356:AAEMD4OCm9n75dYjNEqsbLSse61eys6ECCs', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/user_cali_bot"};
-var room9 = {name:"Chat Room 9", token: '1054009828:AAFNXsqZ8eCHq4_nssTWfi8vGz-nZYMoaBc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/UserCali_bot"};
-var room10 = {name:"Chat Room 10", token: '1071043028:AAE82MBopRIrsVnRvij9J3YG-Cd_Mn98V8c', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/ChicaCali_bot"};
-var room11 = {name:"Chat Room 11", token: '1103870332:AAHMLWODcJ2G9g4emsAJpNArieFGhUp5PCc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/Chica_1_bot"};
-var room12 = {name:"Chat Room 12", token: '1132983720:AAEjkuSy6Zgh7upIGaOJS6fy2MnY5ageMs0', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/roomss_5_bot"};
+var room8 = {name:"Chat Room 8", token: '1233121699:AAE9CemaMDH4kk9BXjVUbBQ_A4fDQb7S8LQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_8_bot"};
+var room9 = {name:"Chat Room 9", token: '1254923484:AAHJqFDGK_quk5TbrAwdZO2bdNJjh0uncEg', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_9_bot"};
+var room10 = {name:"Chat Room 10", token: '1199652007:AAFpaqtTnsZB4PRd-iITzSJToiz_BfX-3i0', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_10_bot"};
+var room11 = {name:"Chat Room 11", token: '1235801656:AAFxoIRKT4nOXAyn0Cru-4lYkZhxGD_oZRI', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_11_bot"};
+var room12 = {name:"Chat Room 12", token: '1296006885:AAG2ZZu8tSSNEKkgcMo8z8DlWEPKvSp015M', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_12_bot"};
+var room13 = {name:"Chat Room 13", token: '1181777678:AAERYfw39Jsj9vl9dhXzLe0s5A15X5htrxY', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_13_bot"};
+var room14 = {name:"Chat Room 14", token: '927248869:AAGdALnEMdGjebHUTceA29nl2k7tc3hMLwY', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_14_bot"};
+var room15 = {name:"Chat Room 15", token: '1017804642:AAGVgeeItd_MGxY7n3CO7IAxUHwMTQi62tQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_15_bot"};
+var room16 = {name:"Chat Room 16", token: '1162575859:AAGpiI92C0AhZ1SYUD1CoGPKBXLFNlN0jts', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_16_bot"};
+var room17 = {name:"Chat Room 17", token: '1227344495:AAEblIJGbs9FdoH75oPxAE7bzv-q4tn1bbc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_17_bot"};
+var room18 = {name:"Chat Room 18", token: '1217696636:AAGM3u_zt6HqIW5o4yU7am3BXWH2IIc3JRc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_18_bot"};
+var room19 = {name:"Chat Room 19", token: '1280718231:AAE7kDf-7ZvpBxuumI4hNzr8uJ7U2Mlw-Yg', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_19_bot"};
+//39-58 celular chicas rionegro 3203520661 huawei y9
+var room20 = {name:"Chat Room 20", token: '1144425573:AAEDPUJBB3RHKModS1-phFRPRi-SERqvHyM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_20_bot"};
+var room21 = {name:"Chat Room 21", token: '1193099755:AAFNNZ-bdJ0R-OwUfm9dOpCVurGJHfL-3Z4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_21_bot"};
+var room22 = {name:"Chat Room 22", token: '1114139170:AAGo064i0fBemvaOz_CQteQWCOKOaZVUl8U', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_22_bot"};
+var room23 = {name:"Chat Room 23", token: '1203029347:AAH8B_kzM3n9sObuo1cAKcqF7U_-_vfxWTc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_23_bot"};
+var room24 = {name:"Chat Room 24", token: '1188601604:AAEYJi-YmIyKNZpHeRbpe_AGFs3lXPi3S6o', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_24_bot"};
+var room25 = {name:"Chat Room 25", token: '1109790541:AAFUciQNiUEjBUd_nXH8SeTGwvl1K3QWYjI', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_25_bot"};
+var room26 = {name:"Chat Room 26", token: '1278065518:AAEhxKv0h6i6Ffvw3VenHPxrMfvaNR_-wJA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_26_bot"};
+var room27 = {name:"Chat Room 27", token: '1003873009:AAFMYMexC562eft_FM3FoU-srFoVj0K-dSQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_27_bot"};
+var room28 = {name:"Chat Room 28", token: '1232312853:AAHWlZc4hwPOXSX6iCi0g5MBMSiMc4kk6aU', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_28_bot"};
+var room29 = {name:"Chat Room 29", token: '1199495393:AAFMJEgjW5c-Di55zbeX4cmPe88lHcw45CA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_29_bot"};
+var room30 = {name:"Chat Room 30", token: '1088466257:AAGj7TmpN2QSTQdPh4cUS9GuX3xaGBIYJWE', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_30_bot"};
+var room31 = {name:"Chat Room 31", token: '1292195034:AAGLC2vd6kI9psDyTkOYvpbfcj-0a39BhJk', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_31_bot"};
+var room32 = {name:"Chat Room 32", token: '1131866516:AAGntHHZKcp8OmkSsQqn0fQa-9WsJ6f15UA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_32_bot"};
+var room33 = {name:"Chat Room 33", token: '1218760629:AAGCvtNcWCW609GkvnM-i0ALEdv_2lMnrgM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_33a_bot"};
+var room34 = {name:"Chat Room 34", token: '1168171928:AAH8RoYiCPzoyJLgXlfTZrbmo3QpODWDfs4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_34_bot"};
+var room35 = {name:"Chat Room 35", token: '1024915582:AAGqiSSugiybKQjWZcnCqjlaCgnULMaPG84', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_35_bot"};
+var room36 = {name:"Chat Room 36", token: '1181991207:AAFlScvJui0u4f1Y8gDPGIHYLDEvalQM4bg', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_36_bot"};
+var room37 = {name:"Chat Room 37", token: '1135704014:AAGLf3al8NnwUuOajz-tPJKQAAEVjIfat-Q', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_37_bot"};
+var room38 = {name:"Chat Room 38", token: '1157965581:AAF3BTwZBc9fZs4beBpiRlESfGd701PKx68', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_38_bot"};
+//39-58 celular ingstudio 3188669764 huawei p9
+var room39 = {name:"Chat Room 39", token: '1177860983:AAGzd7p_FMkudj727ZDK0m5wHrF-QyBn-UQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_39_bot"};
+var room40 = {name:"Chat Room 40", token: '1292360861:AAG4nlYmILTXGziyMVEBn5T913JTSDw3DNg', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_40_bot"};
+var room41 = {name:"Chat Room 41", token: '1093114644:AAHERDAgtOIJ-ggEsfJuGqcfmKtBpu3D6V8', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_41_bot"};
+var room42 = {name:"Chat Room 42", token: '1194013418:AAH-N_--diw3xz5GqO6zvenpsFGI61wdVcI', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_42_bot"};
+var room43 = {name:"Chat Room 43", token: '1132115671:AAG7vgYr7vWdRbAsc0SLK3df7FDYwlohHGw', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_43_bot"};
+var room44 = {name:"Chat Room 44", token: '903323746:AAGVTFHOj7CW2JdhPLHxhKveoSRU96T3BFE', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_44_bot"};
+var room45 = {name:"Chat Room 45", token: '1220270806:AAGp91LdbeSeXiBNFL_azUt6GNeJVY5g6yM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_45_bot"};
+var room46 = {name:"Chat Room 46", token: '1276127130:AAFGt49dbdySUibVXMIDE1YsQLV6Jdopvy0', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_46_bot"};
+var room47 = {name:"Chat Room 47", token: '1234614968:AAFlhi8W64ck4aiNbQMFOxfiMQy4ZAM2uA0', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_47_bot"};
+var room48 = {name:"Chat Room 48", token: '1189945298:AAHm9Vrgc1dpWMMpZ3RtBg_l43pmN2dHYOA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_48_bot"};
+var room49 = {name:"Chat Room 49", token: '1267742162:AAHQaAU4JognTsmqlQ_AcA_zLqW6vSw9ehk', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_49_bot"};
+var room50 = {name:"Chat Room 50", token: '1159744394:AAE9D5HErrCRCaehqnyByndDTHFxlmoVKZU', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_50_bot"};
+var room51 = {name:"Chat Room 51", token: '1214308411:AAGSjtg8cjNpqzYlGPO3luy03IoKHkgVNEk', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_51_bot"};
+var room52 = {name:"Chat Room 52", token: '1126008847:AAE08uF6_uGvUMPqLefZjUhFFsb6syS9hEM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_52_bot"};
+var room53 = {name:"Chat Room 53", token: '1239458060:AAEQXWYefrvLeID6FpLa7xCThMfItYwSxeQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_53_bot"};
+var room54 = {name:"Chat Room 54", token: '1169074663:AAEu1V_Mc5kpLzpKVvuyjeV8F5j_4j2e7aQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_54_bot"};
+var room55 = {name:"Chat Room 55", token: '1154250811:AAEpeLNKSsfyumEKgh3s3Z7DAFLLb3qL4Ew', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_55_bot"};
+var room56 = {name:"Chat Room 56", token: '1216067830:AAFOwAFMh4ZArWRNZ-Fzy9Dbctp16GZit-A', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_56_bot"};
+var room57 = {name:"Chat Room 57", token: '1087334755:AAHQB6ZEu-6w2vA1BfZtEkQAm3CzVgVgLqQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_57_bot"};
+var room58 = {name:"Chat Room 25", token: '987192235:AAF-C1eBo0ij2yqFgJ4-S-wNsqzoN2GCFs4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_58_bot"};
+// 59-79 celular victoria 3178497621  xiaomi 
+var room59 = {name:"Chat Room 59", token: '1228085053:AAF6krnnrphCRrbmbkv-rOnA9lY7S4qMP9k', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_59_bot"};
+var room60 = {name:"Chat Room 60", token: '1275090810:AAHROJkV9d_0eaoJMP48QIM48nz6nkqE0sk', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_60_bot"};
+var room61 = {name:"Chat Room 61", token: '1249298038:AAFRGE-cQ0y3W1sUUwODB5u1q1lzeAY9fBA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_61_bot"};
+var room62 = {name:"Chat Room 62", token: '1142355044:AAFpfatzjmHqe4NXt6wckGrbLxZ-RVQEZSA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_62_bot"};
+var room63 = {name:"Chat Room 63", token: '1132684703:AAEF2gAeeISYRQDnOKU3Cmcyy7U8CMvYk0Y', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_63_bot"};
+var room64 = {name:"Chat Room 64", token: '1242951354:AAGgCwvuzF8w1TmhYRtm4NiVN2VZV0tgNCw', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_64_bot"};
+var room65 = {name:"Chat Room 65", token: '1210884541:AAFTbtH1QSfA7tiz_fUCGaP8zO1p2B3Rslc', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_65_bot"};
+var room66 = {name:"Chat Room 66", token: '1244347328:AAEXaO5gm_pb1vuTB9Zyq8zj1FuPPSB1fr8', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_66_bot"};
+var room67 = {name:"Chat Room 67", token: '1233519665:AAGWskNt8bx0Z14X7cAzj4V6Ob4lS7OpKhg', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_67_bot"};
+var room68 = {name:"Chat Room 68", token: '937805612:AAE7pT5p4ryrntwsZiB_ANE6HGnh7bKH8k0', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_68_bot"};
+var room69 = {name:"Chat Room 69", token: '1200374399:AAEhVh8rAys5Z0ww6o850jYtWMKjBXoXvhU', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_69_bot"};
+var room70 = {name:"Chat Room 70", token: '1181418013:AAErU5tpamFG4nNPMMCgLEGizTwZ1Xu4RCE', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_70_bot"};
+var room71 = {name:"Chat Room 71", token: '1040261559:AAGj4BNQIdkB0t9Oj24MsP331eoJ_47lhY4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_71_bot"};
+var room72 = {name:"Chat Room 72", token: '1230198987:AAFdN21XNKwNEMhiwiigvvIM9bPplAzpqkg', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_72_bot"};
+var room73 = {name:"Chat Room 73", token: '1038518866:AAF10knH51JWwLfnmW24asP7p4VFs7WZFI8', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_73_bot"};
+var room74 = {name:"Chat Room 74", token: '1091847391:AAGcFyA4bJwiCW6r9-fOVin0rOAIlz18uKw', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_74_bot"};
+var room75 = {name:"Chat Room 75", token: '1262749949:AAHmF18yWOC0-1_5guDJsUt87P60vVB8IAQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_75_bot"};
+var room76 = {name:"Chat Room 76", token: '929847815:AAEBD5l0ch909_yKzZZhRr7mIVoveOyM_hw', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_76_bot"};
+var room77 = {name:"Chat Room 77", token: '1195893083:AAF7ydOsyu4JAC1wtrvrjbZeKGAcXy-_4kw', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_77_bot"};
+var room78 = {name:"Chat Room 78", token: '1094745797:AAG4VFqkmHZfShmR1TeX6QxjRRjqtGAs7JY', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_78_bot"};
 
-// var room8 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room9 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room10 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room11 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room12 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room13 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room14 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room15 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room16 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room17 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room18 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room19 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room20 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room21 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room22 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room23 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room24 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
-// var room25 = {name:"Chat Room 3", token: '', used: true, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: ""};
 
-
-var rooms = [room1, room2, room3, room4, room5, room6, room7, room8, room9, room10, room11, room12];
+var rooms = [room1, room2, room3, room4, room5, room6, room7, room8, room9, room10, room11, room12, room13, room14, room15, room16, room17, room18,
+room19, room20, room21, room22, room23, room24, room25, room26, room27, room28, room29, room30, room31, room32, room33, room34, room35, room36,
+room37, room38, room39, room40, room41, room42, room43, room44, room45, room46, room47, room48, room49, room50, room51, room52, room53,
+room54, room55, room56, room57, room58, room59, room60, room61, room62, room63, room64, room65, room66, room67, room68, room69, room70,
+room71, room72, room73, room74, room75, room76, room77, room78 ];
 var girls = [girl11, girl12, girl13, girl14, girl15];
-
+ 
 //var userBaned = [ {name: 'david', id: 1115689097} ]; // in this array push the user baned for used no accept words
 var userBaned = []; // in this array push the user baned for used no accept words
 
@@ -55,9 +136,12 @@ var users = [
     {name: 'alejandro', id: 921828190}
     ]; // in this array push the each user into the principal bot chat 1115689097 vicky
 
-var keywords = ["email", "gmail", "hotmail","yahoo", "outlook", "msn", "google", "instagram", "whatsapp","mail","snapchat","tik", "tok","tango","facebook","face","book","http","@","arroba",".com",".co",".net",".org","www","telegram", "numero","celular","celu","300","301","302","303","304","305","306","307","308","310","311","312","313","314","315","316","317","318","319","320","321","322","323","carrera","cra","calle","cll","ave","avenida","autopista","buscame","llamame","#","movistar","tres"];
+var keywords = ["email", "gmail", "hotmail","yahoo", "outlook", "msn", "google", "instagram", "whatsapp","mail","snapchat","tik", "tok","tango","facebook","face","book",
+"http","@","arroba",".com",".co",".net",".org","www","telegram", "numero","celular","celu","300","301","302","303","304","305","306","307","308","310","311","312","313",
+"314","315","316","317","318","319","320","321","322","323","carrera","cra","calle","cll","ave","avenida","autopista","buscame","llamame","#","movistar","tres"];
 
-var tokenPrincipal = '1145096687:AAFVKlN7KkpQCmdjjWLOiuZEVVLGHQwzbWg'; //  t.me/cali_girls_bot  bot principal
+//var tokenPrincipal = '1167735604:AAGc6sKPNUVQyBl3-3STWqeHvpcQcVQoDac'; //  t.me/kintti_bot  bot principal
+var tokenPrincipal = kintti.token;
 var tokenMonitor = chatMonitor.token;
 var userMonitor =  monitor.ID;
 var idBot0 = "";
@@ -78,6 +162,12 @@ var botRoom9 = new TelegramBot(room9.token, {polling:true});
 var botRoom10 = new TelegramBot(room10.token, {polling:true}); 
 var botRoom11 = new TelegramBot(room11.token, {polling:true}); 
 var botRoom12 = new TelegramBot(room12.token, {polling:true}); 
+var botRoom13 = new TelegramBot(room13.token, {polling:true}); 
+var botRoom14 = new TelegramBot(room14.token, {polling:true}); 
+var botRoom15 = new TelegramBot(room15.token, {polling:true}); 
+var botRoom16 = new TelegramBot(room16.token, {polling:true}); 
+var botRoom17 = new TelegramBot(room17.token, {polling:true}); 
+var botRoom18 = new TelegramBot(room18.token, {polling:true}); 
 
 var textNoAccept = "Estas usando palabras NO ACEPTADAS, Sí persiste tu cuenta sera cancelada!";
 var textNoAcceptToUser = " esta tratando de escribirte texto no aceptado";
@@ -98,18 +188,22 @@ console.log(typeAnswer);
             case 1:
 
                 console.log(msgText); console.log(roomSelect); console.log(userChat); console.log(girlChat); console.log(typeAnswer); console.log(nameUser); console.log(nameGirl);
-                if (typeAnswer=='textNoAcceptUser') {            
+                if (typeAnswer=='textNoAcceptUser') {    
+                    botRoom1.sendChatAction(userChat, 'upload_photo');        
                     botRoom1.sendMessage(userChat,nameUser+textNoAccept);
                     botRoom1.sendMessage(girlChat,nameUser+textNoAcceptToUser);
                     botMonitor.sendMessage(monitor.ID, 'room 1: '+ nameUser+' intenta enviar texto no aceptado: "'+msgText+'"');
                 } else if(typeAnswer=='textNoAcceptGirl') {
+                    botRoom1.sendChatAction(girlChat, 'upload_photo');
                     botRoom1.sendMessage(girlChat,nameGirl+textNoAccept);
                     botRoom1.sendMessage(userChat,nameGirl+textNoAcceptToGirl);
                     botMonitor.sendMessage(monitor.ID, 'room 1: '+nameGirl+' intenta enviar texto no aceptado: "'+msgText+'"');        
                 } else if (typeAnswer=='toUser') {
+                    botRoom1.sendChatAction(userChat, 'upload_photo');
                     botRoom1.sendMessage(userChat,nameGirl+' dice: '+msgText);
                     botMonitor.sendMessage(monitor.ID, 'room 1: '+ nameGirl+' dice a '+nameUser+': '+msgText);
                 } else if (typeAnswer=='toGirl') {
+                    botRoom1.sendChatAction(girlChat, 'upload_photo');
                     botRoom1.sendMessage(girlChat,nameUser+' dice: '+msgText);  
                     botMonitor.sendMessage(monitor.ID, 'room 1: '+nameUser+' dice a '+nameGirl+': '+msgText);
                 }
@@ -444,7 +538,7 @@ botPrincipal.onText(/^\/start/, function(msg){
   console.log(msg.chat.id);
   idBot0 = msg.chat.id;
   let username = msg.from.username;
-  botPrincipal.sendMessage(chatId, "Bienvenido, " + username + " al chat de citas, escribe el codigo de la chica:");
+  botPrincipal.sendMessage(chatId, "Bienvenido al Bot de kintti.com, " + username + " al chat de citas, escribe el codigo de la chica:");
 
 });
 
@@ -462,7 +556,7 @@ botPrincipal.on('message', function(msg){
     banedPos=userBaned.findIndex(usuario =>{
         return usuario.id==chatId;
     });
-    //console.log(users);
+    
 if (banedPos != -1) {
     console.log('usuario baneado')
     botPrincipal.sendMessage(chatId, "Hola, " + userBaned[banedPos].name + " estas en la lista de Baneados, debes esperar 8 dias para poder ingresar de nuevo");
@@ -566,7 +660,9 @@ if (banedPos != -1) {
                 botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
                 botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
             }else {
-                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica13a.jpg?v=1588561409545';
+               
+               var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica13a.jpg?v=1588561409545';
+               // var photo = 'chica13a.jpg';
                 rooms[roomSelected].used=true; 
                 rooms[roomSelected].user=chatId;  
                 rooms[roomSelected].girl=girls[g].ID; 
@@ -584,7 +680,10 @@ if (banedPos != -1) {
                       ]]
                     }
                     });
+                    
+                    botPrincipal.sendChatAction(chatId, 'upload_photo');
                 botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
+              
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
                       inline_keyboard: [[
@@ -650,12 +749,14 @@ if (banedPos != -1) {
                 botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
                 botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
             }else {
-                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica15a.jpg?v=1588561419151';
+                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica11a.jpg?v=1588561384170';
+                
                 rooms[roomSelected].used=true; 
                 rooms[roomSelected].user=chatId;  
                 rooms[roomSelected].girl=girls[g].ID; 
                 rooms[roomSelected].girlName=girls[g].name; 
                 rooms[roomSelected].userName=username;
+                
                 console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
                 // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
                 botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
@@ -669,6 +770,7 @@ if (banedPos != -1) {
                     }
                     });
                 botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
+                botPrincipal.sendChatAction(chatId, 'pload_photo');
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
                       inline_keyboard: [[
@@ -709,10 +811,10 @@ if (banedPos != -1) {
         //     });
             
     }
-  console.log(users);
+    console.log(users);
 }
 
-     
+
 });
 
 // Room 1  ==>>
@@ -723,9 +825,12 @@ botRoom1.on('message', function(msg){
     console.log("texto: "+echo);
     numRoom=1;
     let userRoom=rooms[numRoom-1].user;
+
     let girlRoom=rooms[numRoom-1].girl;
     let girlName=rooms[numRoom-1].girlName;
     let userName=rooms[numRoom-1].userName;
+    
+    //botRoom1.setChatTitle(chatId, 'titulo del chat');
     sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
     
 });
@@ -883,6 +988,90 @@ botRoom12.on('message', function(msg){
     sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
     
 });
+// Room 13  ==>>
+botRoom13.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=13;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 14  ==>>
+botRoom14.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=14;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 15  ==>>
+botRoom15.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=15;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 16  ==>>
+botRoom16.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=16;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 17  ==>>
+botRoom17.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=17;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 18  ==>>
+botRoom18.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=18;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
 // Room 5 ==>>
 // botRoom5.on('message', function(msg){   //la funcion onText permite recibir los textos e ID de quien ingresa al Bot
     
@@ -916,6 +1105,10 @@ botRoom12.on('message', function(msg){
     botMonitor.on('message', function(msg){console.log("estamos dentro del bot monitor") });
 
 
+  
+
+
+    
   
 
 
