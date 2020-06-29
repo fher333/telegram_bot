@@ -13,31 +13,57 @@ victoria mmira      1115689097
 huwei p9 ingstudio  1042597637
 */
 
-var monitor = {name:"monitor", code: 0, ID: 717550092, city: "cali", age: 19, category: "cita", numberPhone: 321457889,  chatOnline: false};
-var girl11 = {name:"Jeka", code: 11, ID: 1250187130, city: "cali", age: 28, category: "amistad", numberPhone: 3212215487,  chatOnline: false};
-//var girl12 = {name:"maryu", code: 12, ID: 1204215559, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};
-//girl 12 numero ingstudio
-var girl12 = {name:"maryu", code: 12, ID: 1042597637, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};
-//var girl13 = {name:"luisa", code: 13, ID: 1115398938, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};
-// girl 13 numero de  fher
-var girl13 = {name:"luisa", code: 13, ID: 717550092, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};
-//var girl14 = {name:"nayi", code: 14, ID: 1135835787, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};
-//girl 14 numero de vicky
-var girl14 = {name:"nayi", code: 14, ID: 1115689097, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};
-// girl 15 huawei y9
-var girl15 = {name:"La Gata", code: 15, ID: 933443152, city: "cali", age: 18, category: "cita", numberPhone: 3202235689,  chatOnline: false};
-//1239779819 daniela
-var chatMonitor = {name:"Monitor Kintti", token: '1293249756:AAGqocPSvjdPfcNZ3RZDY48Hj1jaKBsVS74', used: true, userOk: false, girlOK: false, link: "t.me/monitor_kintti_bot"}; //monitor
-var kintti = {name:"Kintti", token: '1167735604:AAGc6sKPNUVQyBl3-3STWqeHvpcQcVQoDac', used: true, userOk: false, girlOK: false, link: "t.me/kintti_bot"}; //monitor
-
-//547539239 antonio
+//547539239 antonio huete
 //1101516190 johnn edwar
-//969529351 mauro
+//969529351 mauro rojas
 //1150742077 sandra niño
-//921828190 alejandro
+//921828190 alejandro diaz
+//1239779819 daniela rionegro amiga sandra niño
 //var room1 = {name:"Chat Room 1 prueba", token: '1119763048:AAF7lGV8AN2lcRLQMGBjHRjThNeOGcTCAyM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/chatfherbot"};
 // este es el verdadero 
 // room desde celular fher 3166323179
+
+var chatMonitor = {name:"Monitor Kintti", token: '1293249756:AAGqocPSvjdPfcNZ3RZDY48Hj1jaKBsVS74', used: true, userOk: false, girlOK: false, link: "t.me/monitor_kintti_bot"}; //monitor
+var kintti = {name:"Kintti", token: '1167735604:AAGc6sKPNUVQyBl3-3STWqeHvpcQcVQoDac', used: true, userOk: false, girlOK: false, link: "t.me/kintti_bot"}; //bot_principal
+
+// el usuario monitor es mi el numero de fher iphoneX
+var monitor = {name:"monitor", code: 0, ID: 717550092, city: "cali", age: 19, category: "cita", numberPhone: 321457889,  chatOnline: false};// fher iphonex
+var girl11 = {name:"Jeka", code: 11, ID: 933443152, city: "cali", age: 28, category: "amistad", numberPhone: 3212215487,  chatOnline: false};//fher huawei Y9
+//var girl11 = {name:"Jeka", code: 11, ID: 1250187130, city: "cali", age: 28, category: "amistad", numberPhone: 3212215487,  chatOnline: false};
+//var girl12 = {name:"maryu", code: 12, ID: 1204215559, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};
+//girl 12 numero ingstudio
+var girl12 = {name:"maryu", code: 12, ID: 1042597637, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};// fher huawei P9
+//var girl13 = {name:"luisa", code: 13, ID: 1115398938, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};
+// girl 13 numero de  fher
+var girl13 = {name:"luisa", code: 13, ID: 717550092, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};// fher iphoneX
+//var girl14 = {name:"nayi", code: 14, ID: 1135835787, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};
+//girl 14 numero de vicky
+var girl14 = {name:"nayi", code: 14, ID: 1115689097, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};// vicky xiaomi
+// girl 15 huawei y9
+var girl15 = {name:"La Gata", code: 15, ID: 933443152, city: "cali", age: 18, category: "cita", numberPhone: 3202235689,  chatOnline: false};// fher huawei Y9
+
+
+var girl16 = {name:"Jeka", code: 16, ID: 933443152, city: "cali", age: 28, category: "amistad", numberPhone: 3212215487,  chatOnline: false};//fher huawei Y9
+var girl17 = {name:"maryu", code: 17, ID: 1042597637, city: "cali", age: 22, category: "cita", numberPhone: 3155584525,  chatOnline: false};// fher huawei P9
+var girl18 = {name:"luisa", code: 18, ID: 717550092, city: "cali", age: 18, category: "amistad", numberPhone: 3187895847,  chatOnline: false};// fher iphoneX
+var girl19 = {name:"nayi", code: 19, ID: 1115689097, city: "cali", age: 30, category: "amistad", numberPhone: 3217896587,  chatOnline: false};// vicky xiaomi
+var girl20 = {name:"20-Juliana Valdiri", code: 20, ID: 933443152, city: "Rionegro", age: 22, category: "Cita", numberPhone: 3202235689,  chatOnline: false};// fher huawei Y9
+var girl21 = {name:"21-Samantha Aguilar", code: 21, ID: 933443152, city: "La Ceja", age: 20, category: "Cita", numberPhone: 3212215487,  chatOnline: false};//fher huawei Y9
+var girl22 = {name:"22-Ashley Velez", code: 22, ID: 1042597637, city: "Rionegro", age: 19, category: "Amistad", numberPhone: 3155584525,  chatOnline: false};// fher huawei P9
+var girl23 = {name:"23-Sofia Henao", code: 23, ID: 717550092, city: "Marinilla", age: 26, category: "Amistad", numberPhone: 3187895847,  chatOnline: false};// fher iphoneX
+var girl24 = {name:"24-Catalina Londoño", code: 24, ID: 1115689097, city: "Medellin", age: 18, category: "Amistad", numberPhone: 3217896587,  chatOnline: false};// vicky xiaomi
+var girl25 = {name:"25-Karol Bedoya", code: 25, ID: 933443152, city: "Rionegro", age: 19, category: "Cita", numberPhone: 3202235689,  chatOnline: false};// fher huawei Y9
+var girl26 = {name:"26-Angie Vallejo", code: 26, ID: 933443152, city: "Rionegro", age: 26, category: "Cita", numberPhone: 3212215487,  chatOnline: false};//fher huawei Y9
+var girl27 = {name:"27-Katerine Cruz", code: 27, ID: 1042597637, city: "El Carmen", age: 27, category: "Cita", numberPhone: 3155584525,  chatOnline: false};// fher huawei P9
+var girl28 = {name:"28-Melissa Roldan", code: 28, ID: 717550092, city: "Marinilla", age: 19, category: "Amistad", numberPhone: 3187895847,  chatOnline: false};// fher iphoneX
+var girl29 = {name:"29-Angelina Gutierrez", code: 29, ID: 1115689097, city: "Medellin", age: 20, category: "Amistad", numberPhone: 3217896587,  chatOnline: false};// vicky xiaomi
+var girl30 = {name:"30-Antonia Palacios", code: 30, ID: 933443152, city: "La Ceja", age: 26, category: "Cita", numberPhone: 3202235689,  chatOnline: false};// fher huawei Y9
+var girl31 = {name:"31-Sofia Saldarriaga", code: 31, ID: 933443152, city: "Medellin", age: 22, category: "Amistad", numberPhone: 3212215487,  chatOnline: false};//fher huawei Y9
+
+var girls = [girl11, girl12, girl13, girl14, girl15, girl16, girl17, girl18, girl19, girl20, girl21, girl22, girl23, girl24, girl25 ,girl26, girl27, girl28, girl29, girl30, girl31];
+ 
+
+
 var room1 = {name:"Chat Room 1", token: '1214211400:AAEpxCew-CPwZotWVIrtOAVgGK731UNhUlA', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_1_bot"};
 var room2 = {name:"Chat Room 2", token: '838906383:AAGAyVvkVQL1bKkw4DZ9K5KQ08HY_pkILvM',  used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_2_bot"};
 var room3 = {name:"Chat Room 3", token: '1223414025:AAGxl_XNZOA0IVl4ZEkWvCpoIL-A2e9MwzM', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/romm_3_bot"};
@@ -126,8 +152,7 @@ room19, room20, room21, room22, room23, room24, room25, room26, room27, room28, 
 room37, room38, room39, room40, room41, room42, room43, room44, room45, room46, room47, room48, room49, room50, room51, room52, room53,
 room54, room55, room56, room57, room58, room59, room60, room61, room62, room63, room64, room65, room66, room67, room68, room69, room70,
 room71, room72, room73, room74, room75, room76, room77, room78 ];
-var girls = [girl11, girl12, girl13, girl14, girl15];
- 
+
 //var userBaned = [ {name: 'david', id: 1115689097} ]; // in this array push the user baned for used no accept words
 var userBaned = []; // in this array push the user baned for used no accept words
 
@@ -168,6 +193,67 @@ var botRoom15 = new TelegramBot(room15.token, {polling:true});
 var botRoom16 = new TelegramBot(room16.token, {polling:true}); 
 var botRoom17 = new TelegramBot(room17.token, {polling:true}); 
 var botRoom18 = new TelegramBot(room18.token, {polling:true}); 
+var botRoom19 = new TelegramBot(room19.token, {polling:true}); 
+var botRoom20 = new TelegramBot(room20.token, {polling:true}); 
+var botRoom21 = new TelegramBot(room21.token, {polling:true}); 
+var botRoom22 = new TelegramBot(room22.token, {polling:true}); 
+var botRoom23 = new TelegramBot(room23.token, {polling:true}); 
+var botRoom24 = new TelegramBot(room24.token, {polling:true}); 
+var botRoom25 = new TelegramBot(room25.token, {polling:true}); 
+var botRoom26 = new TelegramBot(room26.token, {polling:true}); 
+var botRoom27 = new TelegramBot(room27.token, {polling:true}); 
+var botRoom28 = new TelegramBot(room28.token, {polling:true}); 
+var botRoom29 = new TelegramBot(room29.token, {polling:true}); 
+var botRoom30 = new TelegramBot(room30.token, {polling:true}); 
+var botRoom31 = new TelegramBot(room31.token, {polling:true}); 
+var botRoom32 = new TelegramBot(room32.token, {polling:true}); 
+var botRoom33 = new TelegramBot(room33.token, {polling:true}); 
+var botRoom34 = new TelegramBot(room34.token, {polling:true}); 
+var botRoom35 = new TelegramBot(room35.token, {polling:true}); 
+var botRoom36 = new TelegramBot(room36.token, {polling:true}); 
+var botRoom37 = new TelegramBot(room37.token, {polling:true}); 
+var botRoom38 = new TelegramBot(room38.token, {polling:true}); 
+var botRoom39 = new TelegramBot(room39.token, {polling:true}); 
+var botRoom40 = new TelegramBot(room40.token, {polling:true}); 
+var botRoom41 = new TelegramBot(room41.token, {polling:true}); 
+var botRoom42 = new TelegramBot(room42.token, {polling:true}); 
+var botRoom43 = new TelegramBot(room43.token, {polling:true}); 
+var botRoom44 = new TelegramBot(room44.token, {polling:true}); 
+var botRoom45 = new TelegramBot(room45.token, {polling:true}); 
+var botRoom46 = new TelegramBot(room46.token, {polling:true}); 
+var botRoom47 = new TelegramBot(room47.token, {polling:true}); 
+var botRoom48 = new TelegramBot(room48.token, {polling:true}); 
+var botRoom49 = new TelegramBot(room49.token, {polling:true}); 
+var botRoom50 = new TelegramBot(room50.token, {polling:true}); 
+var botRoom51 = new TelegramBot(room51.token, {polling:true}); 
+var botRoom52 = new TelegramBot(room52.token, {polling:true}); 
+var botRoom53 = new TelegramBot(room53.token, {polling:true}); 
+var botRoom54 = new TelegramBot(room54.token, {polling:true}); 
+var botRoom55 = new TelegramBot(room55.token, {polling:true}); 
+var botRoom56 = new TelegramBot(room56.token, {polling:true}); 
+var botRoom57 = new TelegramBot(room57.token, {polling:true}); 
+var botRoom58 = new TelegramBot(room58.token, {polling:true}); 
+var botRoom59 = new TelegramBot(room59.token, {polling:true}); 
+var botRoom60 = new TelegramBot(room60.token, {polling:true}); 
+var botRoom61 = new TelegramBot(room61.token, {polling:true}); 
+var botRoom62 = new TelegramBot(room62.token, {polling:true}); 
+var botRoom63 = new TelegramBot(room63.token, {polling:true}); 
+var botRoom64 = new TelegramBot(room64.token, {polling:true}); 
+var botRoom65 = new TelegramBot(room65.token, {polling:true}); 
+var botRoom66 = new TelegramBot(room66.token, {polling:true}); 
+var botRoom67 = new TelegramBot(room67.token, {polling:true}); 
+var botRoom68 = new TelegramBot(room68.token, {polling:true}); 
+var botRoom69 = new TelegramBot(room69.token, {polling:true}); 
+var botRoom70 = new TelegramBot(room70.token, {polling:true}); 
+var botRoom71 = new TelegramBot(room71.token, {polling:true}); 
+var botRoom72 = new TelegramBot(room72.token, {polling:true}); 
+var botRoom73 = new TelegramBot(room73.token, {polling:true}); 
+var botRoom74 = new TelegramBot(room74.token, {polling:true}); 
+var botRoom75 = new TelegramBot(room75.token, {polling:true}); 
+var botRoom76 = new TelegramBot(room76.token, {polling:true}); 
+var botRoom77 = new TelegramBot(room77.token, {polling:true}); 
+var botRoom78 = new TelegramBot(room78.token, {polling:true}); 
+
 
 var textNoAccept = "Estas usando palabras NO ACEPTADAS, Sí persiste tu cuenta sera cancelada!";
 var textNoAcceptToUser = " esta tratando de escribirte texto no aceptado";
@@ -180,6 +266,7 @@ typeAnswer is the type of answer do you need who send  "textNoAcceptUser", "text
 nameUser and nameGirl are the first name get in from telegram chat register who write.
 Also send all message to userMonitor indicate who write.
 */
+
 function sendMessageRoom(msgText,roomSelect,userChat,girlChat,typeAnswer,nameUser,nameGirl) {
 
 console.log(typeAnswer);
@@ -566,7 +653,7 @@ if (banedPos != -1) {
    
     switch(mensaje_principal){
         case '11':
-         g=0;
+            g=0;
             roomSelected=roomSelect();
             if (roomSelected==-1){
                 console.log('todas las salas ocupadas');
@@ -591,7 +678,8 @@ if (banedPos != -1) {
                       ]]
                     }
                     });
-                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
+
+                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
                       inline_keyboard: [[
@@ -602,6 +690,7 @@ if (banedPos != -1) {
                       ]]
                     }
                   });
+                  
                   botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
   
 
@@ -609,8 +698,7 @@ if (banedPos != -1) {
             break;
         
         case '12':
-            
-        g=1;
+            g=1;
             roomSelected=roomSelect();
             if (roomSelected==-1){
                 console.log('todas las salas ocupadas');
@@ -635,7 +723,7 @@ if (banedPos != -1) {
                       ]]
                     }
                     });
-                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
+                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
                       inline_keyboard: [[
@@ -652,8 +740,7 @@ if (banedPos != -1) {
             }
             break;
         case '13':
-           
-        g=2;
+            g=2;
             roomSelected=roomSelect();
             if (roomSelected==-1){
                 console.log('todas las salas ocupadas');
@@ -682,7 +769,7 @@ if (banedPos != -1) {
                     });
                     
                     botPrincipal.sendChatAction(chatId, 'upload_photo');
-                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
+                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
               
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
@@ -700,7 +787,7 @@ if (banedPos != -1) {
             }
             break;
         case '14':
-        g=3;
+            g=3;
             roomSelected=roomSelect();
             if (roomSelected==-1){
                 console.log('todas las salas ocupadas');
@@ -725,7 +812,7 @@ if (banedPos != -1) {
                       ]]
                     }
                     });
-                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
+                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
                       inline_keyboard: [[
@@ -742,7 +829,7 @@ if (banedPos != -1) {
             }
             break;     
         case '15':
-        g=4;
+                g=4;
             roomSelected=roomSelect();
             if (roomSelected==-1){
                 console.log('todas las salas ocupadas');
@@ -769,8 +856,8 @@ if (banedPos != -1) {
                       ]]
                     }
                     });
-                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name});
-                botPrincipal.sendChatAction(chatId, 'pload_photo');
+                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                botPrincipal.sendChatAction(chatId, 'load_photo');
                 botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
                     reply_markup: {
                       inline_keyboard: [[
@@ -787,10 +874,711 @@ if (banedPos != -1) {
             }
             break;   
 
+        case '16':
+                    g=5;
+                    roomSelected=roomSelect();
+                    if (roomSelected==-1){
+                        console.log('todas las salas ocupadas');
+                        botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                        botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                    }else {
+                        var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica14a.jpg?v=1588561414582';
+                        rooms[roomSelected].used=true; 
+                        rooms[roomSelected].user=chatId;  
+                        rooms[roomSelected].girl=girls[g].ID; 
+                        rooms[roomSelected].girlName=girls[g].name; 
+                        rooms[roomSelected].userName=username;
+                        console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                        // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                        botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                            reply_markup: {
+                              inline_keyboard: [[
+                                {
+                                  text: 'Ingresa al '+rooms[roomSelected].name,
+                                  url: rooms[roomSelected].link
+                                }
+                              ]]
+                            }
+                            });
+                        botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                        botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                            reply_markup: {
+                              inline_keyboard: [[
+                                {
+                                  text: 'Ingresa al '+rooms[roomSelected].name,
+                                  url: rooms[roomSelected].link
+                                }
+                              ]]
+                            }
+                          });
+                          botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+          
+        
+                    }
+                    break;
+
+        case '17':
+                        g=6;
+                            roomSelected=roomSelect();
+                            if (roomSelected==-1){
+                                console.log('todas las salas ocupadas');
+                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                            }else {
+                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica14a.jpg?v=1588561414582';
+                                rooms[roomSelected].used=true; 
+                                rooms[roomSelected].user=chatId;  
+                                rooms[roomSelected].girl=girls[g].ID; 
+                                rooms[roomSelected].girlName=girls[g].name; 
+                                rooms[roomSelected].userName=username;
+                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                    reply_markup: {
+                                      inline_keyboard: [[
+                                        {
+                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                          url: rooms[roomSelected].link
+                                        }
+                                      ]]
+                                    }
+                                    });
+                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                    reply_markup: {
+                                      inline_keyboard: [[
+                                        {
+                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                          url: rooms[roomSelected].link
+                                        }
+                                      ]]
+                                    }
+                                  });
+                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                  
+                
+                            }
+                            break;
+        case '18':
+                g=7;
+                                        roomSelected=roomSelect();
+                                        if (roomSelected==-1){
+                                            console.log('todas las salas ocupadas');
+                                            botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                            botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                        }else {
+                                            var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica14a.jpg?v=1588561414582';
+                                            rooms[roomSelected].used=true; 
+                                            rooms[roomSelected].user=chatId;  
+                                            rooms[roomSelected].girl=girls[g].ID; 
+                                            rooms[roomSelected].girlName=girls[g].name; 
+                                            rooms[roomSelected].userName=username;
+                                            console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                            // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                            botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                reply_markup: {
+                                                inline_keyboard: [[
+                                                    {
+                                                    text: 'Ingresa al '+rooms[roomSelected].name,
+                                                    url: rooms[roomSelected].link
+                                                    }
+                                                ]]
+                                                }
+                                                });
+                                            botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                            botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                reply_markup: {
+                                                inline_keyboard: [[
+                                                    {
+                                                    text: 'Ingresa al '+rooms[roomSelected].name,
+                                                    url: rooms[roomSelected].link
+                                                    }
+                                                ]]
+                                                }
+                                            });
+                                            botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                            
+                            
+                                        }
+                                    break;
+
+ case '19':
+                                        g=8;
+                                        roomSelected=roomSelect();
+                                        if (roomSelected==-1){
+                                            console.log('todas las salas ocupadas');
+                                            botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                            botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                        }else {
+                                            var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2Fchica11a.jpg?v=1588561384170';
+                                            rooms[roomSelected].used=true; 
+                                            rooms[roomSelected].user=chatId;  
+                                            rooms[roomSelected].girl=girls[g].ID; 
+                                            rooms[roomSelected].girlName=girls[g].name; 
+                                            rooms[roomSelected].userName=username;
+                                            console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                            // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                            botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                reply_markup: {
+                                                  inline_keyboard: [[
+                                                    {
+                                                      text: 'Ingresa al '+rooms[roomSelected].name,
+                                                      url: rooms[roomSelected].link
+                                                    }
+                                                  ]]
+                                                }
+                                                });
+                            
+                                            botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                            botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                reply_markup: {
+                                                  inline_keyboard: [[
+                                                    {
+                                                      text: 'Ingresa al '+rooms[roomSelected].name,
+                                                      url: rooms[roomSelected].link
+                                                    }
+                                                  ]]
+                                                }
+                                              });
+                                              
+                                              botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                              
+                            
+                                        }
+                                        break;
+case '20':
+                                            g=9;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0020-0.jpg?v=1593369745236';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+
+case '21':
+                                            g=10;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0021-0.jpg?v=1593369852343';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '22':
+                                            g=11;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0022-0.jpg?v=1593369857883';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '23':
+                                            g=12;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0023-0.jpg?v=1593370024405';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '24':
+                                            g=13;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0024-0.jpg?v=1593370076387';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '25':
+                                            g=14;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0025-0.jpg?v=1593369937710';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '26':
+                                            g=15;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0026-0.jpeg?v=1593369986770';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '27':
+                                            g=16;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0027-0.jpg?v=1593369933895';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '28':
+                                            g=17;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0028-0.jpeg?v=1593369955752';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '29':
+                                            g=18;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0029-0.jpeg?v=1593369963509';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '30':
+                                            g=19;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0030-0.jpeg?v=1593369979866';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
+case '31':
+                                            g=20;
+                                            roomSelected=roomSelect();
+                                            if (roomSelected==-1){
+                                                console.log('todas las salas ocupadas');
+                                                botPrincipal.sendMessage(chatId, username+'Lo sentimos! todas las salas de chat estan ocupadas y no podemos enlazarte con '+girls[g].name+' intenta mas tarde');
+                                                botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' no encontro sala de chat para enlazarse con el codigo: '+girls[g].code+' de la chica '+girls[g].name);
+                                            }else {
+                                                var photo = 'https://cdn.glitch.com/506175b6-94d1-4447-a1c5-991d571a4476%2F0031-0.jpeg?v=1593369986327';
+                                                rooms[roomSelected].used=true; 
+                                                rooms[roomSelected].user=chatId;  
+                                                rooms[roomSelected].girl=girls[g].ID; 
+                                                rooms[roomSelected].girlName=girls[g].name; 
+                                                rooms[roomSelected].userName=username;
+                                                console.log('sala encontrada: '+rooms[roomSelected].name); console.log('id usuario asignado: '+rooms[roomSelected].user); console.log('id chica asignada: '+rooms[roomSelected].girl);
+                                                // botPrincipal.sendMessage(chatId, 'Bienvenido, ingresa al '+rooms[roomSelected].name+' de '+girl15.name+' haz click en el siguiente enlace: '+ rooms[roomSelected].link);
+                                                botPrincipal.sendMessage(girls[g].ID, 'Hola chica el usuario '+username+' te va escribir al '+rooms[roomSelected].name+' haz click en este link: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                    });
+                                
+                                                botPrincipal.sendPhoto(chatId, photo, {caption: girls[g].name+", Edad: "+girls[g].age+", Ciudad: "+girls[g].city+", Busca: "+girls[g].category});
+                                                botPrincipal.sendMessage(chatId,'Se ha seleccionado el '+rooms[roomSelected].name+' para chatear con '+girls[g].name+', presiona el siguiente boton: ', {
+                                                    reply_markup: {
+                                                      inline_keyboard: [[
+                                                        {
+                                                          text: 'Ingresa al '+rooms[roomSelected].name,
+                                                          url: rooms[roomSelected].link
+                                                        }
+                                                      ]]
+                                                    }
+                                                  });
+                                        
+                                                  botMonitor.sendMessage(monitor.ID, 'el usuario '+username+' ingreso el codigo correcto '+girls[g].code+' de la chica '+girls[g].name+' y el room habilitado es: '+ rooms[roomSelected].link);
+                                  
+                                
+                                            }
+break;
         default:
             if (userPos == -1) {  //eres usuario nuevo
                 console.log("eres nuevo "+username)
-                    botPrincipal.sendMessage(chatId, "Bienvenido, " + username + " al chat de citas, escribe el codigo de la chica:");
+                    botPrincipal.sendMessage(chatId, "Bienvenido, " + username + " al chat de citas de kintti.com, escribe el codigo SKU de la chica:");
                     users.push({name: username, id: chatId});
                     botMonitor.sendMessage(monitor.ID, 'NUEVO usuario '+msg.from.first_name+' con codigo id: '+chatId);
             } else {
@@ -798,18 +1586,7 @@ if (banedPos != -1) {
                     botPrincipal.sendMessage(chatId, 'Has ingresado un codigo errado, vuelve a escribir el codigo de la chica:  ');
             }
             
-        // users.forEach(element => {
-        //         if (chatId==element.id) {
-        //             console.log("ya eres usuario "+element.name)
-        //             botPrincipal.sendMessage(chatId, 'Has ingresado un codigo errado, vuelve a escribir el codigo de la chica:  ');
-                    
-        //         }else{
-        //             console.log("eres nuevo "+element.name)
-        //             botPrincipal.sendMessage(chatId, "Bienvenido, " + username + " al chat de citas, escribe el codigo de la chica:");
-        //             users.push({name: username, id: chatId});
-        //         }
-        //     });
-            
+       
     }
     console.log(users);
 }
@@ -1072,6 +1849,854 @@ botRoom18.on('message', function(msg){
     sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
     
 });
+// Room 19  ==>>
+botRoom19.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=19;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 20  ==>>
+botRoom20.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=20;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 21  ==>>
+botRoom21.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=21;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 22  ==>>
+botRoom22.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=22;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 23  ==>>
+botRoom23.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=23;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 24  ==>>
+botRoom24.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=24;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 25  ==>>
+botRoom25.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=25;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 26  ==>>
+botRoom26.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=26;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 27  ==>>
+botRoom27.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=27;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 28  ==>>
+botRoom28.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=28;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 29  ==>>
+botRoom29.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=29;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 30  ==>>
+botRoom30.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=30;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 31  ==>>
+botRoom31.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=31;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 32  ==>>
+botRoom32.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=32;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 33  ==>>
+botRoom33.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=33;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 34  ==>>
+botRoom34.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=34;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 35  ==>>
+botRoom35.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=35;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 36  ==>>
+botRoom36.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=36;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 37  ==>>
+botRoom37.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=37;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 38  ==>>
+botRoom38.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=38;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 39  ==>>
+botRoom39.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=39;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 40  ==>>
+
+botRoom40.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=40;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+
+// Room 41  ==>>
+botRoom41.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=41;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 42  ==>>
+botRoom42.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=42;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 43  ==>>
+botRoom43.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=43;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 44  ==>>
+botRoom44.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=44;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 45  ==>>
+botRoom45.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=45;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 46  ==>>
+botRoom46.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=46;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 47  ==>>
+botRoom47.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=47;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 48  ==>>
+botRoom48.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=48;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 49  ==>>
+botRoom49.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=49;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 50  ==>>
+botRoom50.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=50;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 51  ==>>
+botRoom51.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=51;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 52  ==>>
+botRoom52.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=52;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 53  ==>>
+botRoom53.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=53;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 54  ==>>
+botRoom54.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=54;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 55  ==>>
+botRoom55.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=55;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 56  ==>>
+botRoom56.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=56;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 57  ==>>
+botRoom57.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=57;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 58  ==>>
+botRoom58.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=58;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 59  ==>>
+botRoom59.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=59;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 60  ==>>
+
+botRoom60.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=60;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+
+// Room 61  ==>>
+botRoom61.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=61;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 62 ==>>
+botRoom62.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=62;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 63  ==>>
+botRoom63.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=63;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 64  ==>>
+botRoom64.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=64;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 65  ==>>
+botRoom65.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=65;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 66  ==>>
+botRoom66.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=66;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 67  ==>>
+botRoom67.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=67;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 68  ==>>
+botRoom68.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=68;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 69  ==>>
+botRoom69.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=69;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 70  ==>>
+botRoom70.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=70;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 71  ==>>
+botRoom71.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=71;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 72  ==>>
+botRoom72.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=72;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 73  ==>>
+botRoom73.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=73;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 74  ==>>
+botRoom74.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=74;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 75  ==>>
+botRoom75.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=75;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 76  ==>>
+botRoom76.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=76;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 77  ==>>
+botRoom77.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=77;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+// Room 78  ==>>
+botRoom78.on('message', function(msg){   
+    
+    let chatId = msg.chat.id; 
+    let echo = msg.text;
+    console.log("texto: "+echo);
+    numRoom=78;
+    let userRoom=rooms[numRoom-1].user;
+    let girlRoom=rooms[numRoom-1].girl;
+    let girlName=rooms[numRoom-1].girlName;
+    let userName=rooms[numRoom-1].userName;
+    sendMessageUserGirl(echo,chatId,userRoom,girlRoom,userName,girlName,numRoom);
+    
+});
+
+
+
+
 // Room 5 ==>>
 // botRoom5.on('message', function(msg){   //la funcion onText permite recibir los textos e ID de quien ingresa al Bot
     
@@ -1106,6 +2731,13 @@ botRoom18.on('message', function(msg){
 
 
   
+
+
+    
+  
+
+
+    
 
 
     
