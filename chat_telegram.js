@@ -123,7 +123,7 @@ var room54 = {name:"Chat Room 54", token: '1169074663:AAEu1V_Mc5kpLzpKVvuyjeV8F5
 var room55 = {name:"Chat Room 55", token: '1154250811:AAEpeLNKSsfyumEKgh3s3Z7DAFLLb3qL4Ew', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_55_bot"};
 var room56 = {name:"Chat Room 56", token: '1216067830:AAFOwAFMh4ZArWRNZ-Fzy9Dbctp16GZit-A', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_56_bot"};
 var room57 = {name:"Chat Room 57", token: '1087334755:AAHQB6ZEu-6w2vA1BfZtEkQAm3CzVgVgLqQ', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_57_bot"};
-var room58 = {name:"Chat Room 25", token: '987192235:AAF-C1eBo0ij2yqFgJ4-S-wNsqzoN2GCFs4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_58_bot"};
+var room58 = {name:"Chat Room 58", token: '987192235:AAF-C1eBo0ij2yqFgJ4-S-wNsqzoN2GCFs4', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_58_bot"};
 // 59-79 celular victoria 3178497621  xiaomi 
 var room59 = {name:"Chat Room 59", token: '1228085053:AAF6krnnrphCRrbmbkv-rOnA9lY7S4qMP9k', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_59_bot"};
 var room60 = {name:"Chat Room 60", token: '1275090810:AAHROJkV9d_0eaoJMP48QIM48nz6nkqE0sk', used: false, userOk: false, girlOK: false, user: 0, girl: 0, userName: '', girlName:'', link: "t.me/room_60_bot"};
